@@ -1,0 +1,26 @@
+#news_h
+{
+    text-align: center;
+   
+}
+#news{
+  
+}
+
+img{
+    width: 20%;
+    height: auto;
+   float: left;
+   margin-left: 30px;
+   margin-right: 30px;
+
+   
+    
+}
+div{
+    display: inline-block;
+}
+.news_item {
+
+
+}

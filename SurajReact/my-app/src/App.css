@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.main{
+
+
+}
+.news-container{
+ 
+  background-color: #f1f1f1;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 32%;
+  padding: 0 10px;
+  border: 10px;
+  margin-left:10px;
+height: 50%;
+display:table;
+ 
+    
+}
+
+/* Remove extra left and right margins, due to padding */
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table-cell;
+  clear: both;
+  
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  overflow-y: auto;
+  
+ 
+}
+.heading h1{
+  background-color: white;
+  text-align: center;
+  display: inline-block
+}
+
+
+
